@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.block1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.header{
+    font-size: 24px;
+    width: 350px;
+    margin: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.infoHeader{
+    font-size: 14px;
+    color: rgb(151, 151, 151);
+    margin-top: 40px;
+    font-weight: normal;
+    line-height: 24px;
+}
+.block2{
+    margin-top: 50px;
+    background-size: cover;
+    background-color: rgb(241, 241, 241);
+    height: 800px;
+    display: flex;
+}
+img{
+    width: 650px;
+    height: 800px;
+}
+.aboutMe{
+    margin: 80px;
+}
+#aboutMe{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 750px; height: 310px;
+    margin-bottom: 30px;
+}
+#infoAboutMe{
+    font-size: 14px;
+    color: rgb(141, 141, 141);
+    margin-top: 40px;
+    font-weight: normal;
+    line-height: 24px;
+}
+p{
+    margin-top: 30px;
+}
+.other img{
+    width: 40px; height: 40px;
+    margin-right: 18px;
+}
+.other{
+    display: flex;
+    flex-wrap: wrap;
+}
+.wgos{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.header2{
+    font-size: 18px;
+    width: 285px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#left{
+    margin-right: 60px;
+}
+.infoOther{
+    font-size: 14px;
+    color: rgb(141, 141, 141);
+    margin-top: 20px;
+    font-weight: normal;
+    line-height: 24px;
+}
+.block3{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+#header3{
+    font-size: 24px;
+    width: 525px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#mySkills{
+    font-size: 14px;
+    color: rgb(151, 151, 151);
+    margin-top: 40px;
+    font-weight: normal;
+    line-height: 24px;
+}
+#button{
+    background-color: white;
+    border: 2px solid rgb(49, 189, 49);
+    color: rgb(49, 189, 49);
+    font-size: 14px;
+    width: 155px; 
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+#button:hover{
+    color: rgb(32, 138, 32);
+    cursor: pointer;
+}
+#levelSkills{
+    margin-left: 60px;
+    margin-bottom: 70px;
+}
+.headerSkill{
+    font-size: 18px;
+    width: 525px;
+    margin: 40px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+progress{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(71, 223, 71);
+    margin-top: 12px;
+}
+progress::-webkit-progress-bar {
+    background-color: rgb(241, 241, 241);
+}
+.progressBar{
+    width: 100%; height: 30px;
+    background: rgb(241, 241, 241);
+    margin-top: 12px;
+}
+.persent{
+    width: 80%; height: 30px;
+    background: green;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 16px;
+    padding-right: 10px;
+}
+#secondBar{
+    width: 70%;
+}
+
+
+
+
+@media screen and (max-width: 426px){
+    .block1{flex-direction: column;}
+    .header{font-size: 22px; width: 360px; margin: 0 auto 35px auto;}
+    .infoHeader{margin-top: 15px;}
+    .block2{flex-direction: column; height: 1590px; margin-top: 20px;}
+    img{width: 426px; height: 527px;}
+    .aboutMe{margin: 40px auto 0px auto;}
+    #aboutMe{font-size: 22px; width: 360px; height: 450px;}
+    #infoAboutMe{margin-top: 25px;}
+    .other{display: block;}
+    .other img{width: 38px; height: 38px; margin-right: 16px;}
+    .header2{width: 300px;}
+    .infoOther{margin-top: 10px;}
+    #left{margin-right: 0;}
+    .block3{flex-direction: column; margin-top: 10px;}
+    #header3{font-size: 22px; width: 360px; margin: 20px auto 20px auto;}
+    #mySkills{margin-top: 20px;}
+    #button{margin-top: 30px;}
+    .headerSkill{margin: 30px 20px 0px 20px; width: 360px; font-size: 16px;}
+    #levelSkills{margin-left: 0;}
+    progress{margin-top: 8px;}
+    .persent{font-size: 14px;}
+    .progressBar{margin-top: 8px;}
+}
+
+@media screen and (max-width: 376px){
+    .block1{flex-direction: column;}
+    .header{font-size: 20px; width: 318px; margin: 0 auto 35px auto;}
+    .infoHeader{margin-top: 15px; line-height: 22px;}
+    .block2{flex-direction: column; height: 1580px; margin-top: 20px;}
+    img{width: 375px; height: 465px;}
+    .aboutMe{margin: 35px auto 0px auto;}
+    #aboutMe{font-size: 22px; width: 318px; height: 460px;}
+    p{margin-top: 20px;}
+    #infoAboutMe{margin-top: 20px;}
+    .other{display: block;}
+    .other img{width: 34px; height: 34px; margin-right: 16px;}
+    .header2{font-size: 17px; width: 235px;}
+    .wgos{margin-bottom: 25px;}
+    .infoOther{margin-top: 10px; line-height: 22px;}
+    #left{margin-right: 0;}
+    .block3{flex-direction: column; margin-top: 10px;}
+    #header3{font-size: 20px; width: 318px; margin: 20px auto 20px auto;}
+    #mySkills{margin-top: 20px;}
+    #button{margin-top: 25px;}
+    .headerSkill{margin: 30px 20px 0px 20px; width: 318px; font-size: 16px;}
+    #levelSkills{margin-left: 0;}
+    progress{height: 26px; margin-top: 8px;}
+    .persent{height: 26px; font-size: 14px;}
+    .progressBar{height: 26px; margin-top: 8px;}
+}
+
+@media screen and (max-width: 320px){
+    .block1{flex-direction: column;}
+    .header{font-size: 20px; width: 280px; margin: 0 20px 30px 20px;}
+    .infoHeader{margin-top: 15px; line-height: 22px;}
+    .block2{flex-direction: column; height: 1610px; margin-top: 20px;}
+    img{width: 320px; height: 400px;}
+    .aboutMe{margin: 30px 20px 0px 20px;}
+    #aboutMe{font-size: 20px; width: 280px; height: 530px;}
+    p{margin-top: 15px;}
+    #infoAboutMe{margin-top: 20px;}
+    .other img{width: 30px; height: 30px; margin-right: 14px;}
+    .header2{font-size: 16px; width: 235px;}
+    .wgos{margin-bottom: 10px;}
+    .infoOther{margin-top: 10px; line-height: 22px;}
+    #left{margin-right: 0;}
+    .block3{flex-direction: column; margin-top: 10px;}
+    #header3{font-size: 20px; width: 280px; margin: 20px;}
+    #mySkills{margin-top: 20px;}
+    #button{margin-top: 25px;}
+    .headerSkill{margin: 30px 20px 0px 20px; width: 280px; font-size: 16px;}
+    #levelSkills{margin-left: 0;}
+    progress{height: 26px; margin-top: 8px;}
+    .persent{height: 26px; font-size: 14px;}
+    .progressBar{height: 26px; margin-top: 8px;}
+}
