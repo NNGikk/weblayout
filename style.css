@@ -166,7 +166,7 @@ progress::-webkit-progress-bar {
     .block2{flex-direction: column; height: 1750px; margin-top: 20px;}
     img{width: 426px; height: 527px;}
     .aboutMe{margin: 40px auto 0px auto;}
-    #aboutMe{width: 360px; height: 450px; margin-bottom: 80px;}
+    #aboutMe{width: 360px; height: 490px; margin-bottom: 40px;}
     #infoAboutMe{margin-top: 25px; font-size: 16px;}
     .other{display: block;}
     .other img{width: 38px; height: 38px; margin-right: 16px;}
@@ -181,6 +181,7 @@ progress::-webkit-progress-bar {
     #levelSkills{margin-left: 0;}
     progress{margin-top: 8px;}
     .progressBar{margin-top: 8px;}
+    .wgos{margin-top: 0;}
 }
 
 @media screen and (max-width: 376px){
